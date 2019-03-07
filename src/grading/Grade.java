@@ -3,7 +3,8 @@ package grading;
 public class Grade implements Comparable<Grade> {
 	private Double value;
 	private String key;
-
+    
+	// Constructor
 	public Grade(String key) throws IllegalArgumentException {
 		this(key, new Double(0.0));
 	}
