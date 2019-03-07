@@ -7,6 +7,7 @@ import java.util.List;
 public class DropFilter implements Filter {
 	private boolean shouldDropHighest, shouldDropLowest;
 
+	// Default constructor
 	public DropFilter() {
 		this(true, true);
 	}
