@@ -1,6 +1,7 @@
 package grading;
 
 public class SizeException extends Exception {
+
 	public static final long serialVersionUID = 1L;
 
 	public SizeException() {
@@ -10,4 +11,5 @@ public class SizeException extends Exception {
 	public SizeException(String message) {
 		super(message);
 	}
+	
 }
