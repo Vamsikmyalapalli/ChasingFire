@@ -17,7 +17,6 @@ public class WeightedTotalStrategy implements GradingStrategy {
 	public Grade calculate(String key, List<Grade> grades) throws SizeException {
 		double total, w;
 
-		// Error checking
 		if ((grades == null) || (grades.size() == 0))
 			throw new SizeException("No Grades");
 
